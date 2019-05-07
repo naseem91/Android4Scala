@@ -1,0 +1,172 @@
+[debug] :: resolving dependencies :: default#androidhelloworld$sources;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, androidTest, android-internal, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [compile]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [compile]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [compile]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'androidTest'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [androidTest]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [compile]
+[debug] resolving dependencies for configuration 'android-internal'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [android-internal]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#androidhelloworld$sources;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime(*)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [scala-tool->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.scala-lang#scala-reflect;2.11.12 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.12
+[debug] 	found org.scala-lang#scala-reflect;2.11.12 in sbt-chain
+[debug] 	[2.11.12] org.scala-lang#scala-reflect;2.11.12
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [scala-tool->runtime(*)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [scala-tool->runtime]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [scala-tool->master]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.5 [scala-tool->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.5 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.5 [scala-tool->runtime(*)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.5 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.5 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.5 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.5 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.5 [scala-tool->master]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.scala-lang#scala-library;2.11.12 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.12
+[debug] 	found org.scala-lang#scala-library;2.11.12 in sbt-chain
+[debug] 	[2.11.12] org.scala-lang#scala-library;2.11.12
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->runtime]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->master]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->runtime(*)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->runtime]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->optional]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [scala-tool->master]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.12 [scala-tool->default]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving org.scala-lang#scala-compiler;2.11.12 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.12
+[debug] 	found org.scala-lang#scala-compiler;2.11.12 in sbt-chain
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.12 [scala-tool->runtime]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.12 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.12 [scala-tool->master]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.12 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.12 [scala-tool->runtime]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.12 [scala-tool->compile]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.12 [scala-tool->optional]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.12 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.12 [scala-tool->master]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->jline#jline;2.14.3 [scala-tool->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.11.12 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.11.12 {scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.11.12 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[info] Resolving jline#jline;2.14.3 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.3 {scala-tool=[compile, master(compile), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.14.3
+[debug] 	found jline#jline;2.14.3 in sbt-chain
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->jline#jline;2.14.3 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->jline#jline;2.14.3 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#androidhelloworld$sources;0.1-SNAPSHOT->jline#jline;2.14.3 [scala-tool->master]
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.12!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.12!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.12!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)
+[debug] :: resolution report :: resolve 150ms :: artifacts dl 11ms
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT compile produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-compile.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT runtime produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-runtime.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT test produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-test.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT provided produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-provided.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT optional produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-optional.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT androidTest produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-androidTest.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT android-internal produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-android-internal.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT compile-internal produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-compile-internal.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT runtime-internal produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-runtime-internal.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT test-internal produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-test-internal.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT plugin produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-plugin.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT sources produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-sources.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT docs produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-docs.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT pom produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-pom.xml
+[debug] 	report for default#androidhelloworld$sources;0.1-SNAPSHOT scala-tool produced in /home/naseem/Documents/SFreely NEW/AndroidHelloWorld/target/resolution-cache/reports/default-androidhelloworld$sources-scala-tool.xml
+[debug] 	resolve done (150ms resolve - 11ms download)
