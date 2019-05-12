@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidhelloworld.iml" filepath="$PROJECT_DIR$/.idea/modules/androidhelloworld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidhelloworld-build.iml" filepath="$PROJECT_DIR$/.idea/modules/androidhelloworld-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android4scala.iml" filepath="$PROJECT_DIR$/.idea/modules/android4scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android4scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/android4scala-build.iml" />
     </modules>
   </component>
 </project>
